@@ -19,6 +19,8 @@ proxy_pass uses roundrobin
 `docker exec -it my-nginx bash`
 ## stop container
 `docker stop my-nginx`
+## remove container
+`docker rm my-nginx`
 ## reload nginx config
 `nginx -s reload`
 
