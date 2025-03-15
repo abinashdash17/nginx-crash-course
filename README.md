@@ -11,6 +11,8 @@ directive inside context
 proxy_pass uses roundrobin
 
 # useful commands
+## pull docker image
+`docker pull nginx`
 ## spin up nginx container
 `docker run -d --rm -p 8080-8085:8080-8085 -v $(pwd)/nginx-config/nginx.conf:/etc/nginx/nginx.conf -v $(pwd)/www:/srv/www --name my-nginx nginx`
 ## attach to the container
